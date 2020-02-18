@@ -3,5 +3,11 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/core": ">=9.0.1"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "public_api.ts"
+    },
+    "dest": "dist"
   }
 }
